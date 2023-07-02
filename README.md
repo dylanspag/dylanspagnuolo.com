@@ -24,6 +24,7 @@ brew update && brew install rbenv
 git clone https://github.com/dylanspag/dylanspag.github.io.git
 cd dylanspag.github.io
 rbenv install $(cat .ruby-version)
+eval "$(rbenv init -)"
 gem install bundler
 bundle install
 ```
