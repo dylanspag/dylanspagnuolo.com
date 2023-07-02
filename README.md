@@ -2,11 +2,9 @@
 
 ## Prerequisites
 
-Make sure that you have installed Ruby and that its version matches the one
-specified in [.ruby-version](.ruby-version). I recommend using a tool such as
-[rbenv](https://github.com/rbenv/rbenv) to do this and will use it in the rest
-of the README, but feel free install Ruby in whichever way you find most
-convenient.
+Make sure that you have installed Ruby and that its version matches the one in
+[.ruby-version](.ruby-version). I recommend using a tool such as
+[rbenv](https://github.com/rbenv/rbenv) to do this.
 
 ### Debian-based Linux Distributions
 
@@ -42,6 +40,6 @@ bundle exec jekyll serve [--host 0.0.0.0]
 
 ## Licensing
 
-Feel free to use this code to set up your own website on GitHub Pages in
-accordance with the provided [license](LICENSE).
+Feel free to use this code to set up your own website on GitHub Pages. See the
+[license](LICENSE) for additional details.
 
