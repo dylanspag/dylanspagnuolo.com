@@ -3,20 +3,8 @@
 ## Prerequisites
 
 Make sure that you have installed Ruby and that its version matches the one in
-[.ruby-version](.ruby-version). I recommend using a tool such as
-[rbenv](https://github.com/rbenv/rbenv) to do this.
-
-### Debian-based Linux Distributions
-
-```bash
-apt update && apt install rbenv
-```
-
-### macOS with Homebrew
-
-```bash
-brew update && brew install rbenv
-```
+[.ruby-version](.ruby-version). I recommend using [rbenv](https://github.com/rbenv/rbenv)
+to do this, but others such as RVM will work too.
 
 ## Installation
 
@@ -24,7 +12,6 @@ brew update && brew install rbenv
 git clone https://github.com/dylanspag/dylanspag.github.io.git
 cd dylanspag.github.io
 rbenv install $(cat .ruby-version)
-eval "$(rbenv init -)"
 gem install bundler
 bundle install
 ```
