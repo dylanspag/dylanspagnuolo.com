@@ -8,11 +8,11 @@
 
 .social-media-list > li {
   display: inline-block;
-  padding-right: $spacing-unit / 2;
+  padding-right: $spacing-unit / 4;
 }
 
 #copyright {
   float: right;
-  padding-right: 0;
+  font-size: min(100%, 3vw); 
 }
 
