@@ -1,8 +1,8 @@
 # Site Settings
-title: Dylan Spagnuolo's Blog
+title: "Dylan Spagnuolo"
+description: ""
 copyright_notice: "© 2023 Dylan Spagnuolo. All Rights Reserved."
-description: "Dylan Spagnuolo's Website & Blog"
-theme: minima
+theme: "minima"
 url: "https://dylanspagnuolo.com"
 
 # Minima Customizations
