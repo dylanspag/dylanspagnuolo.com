@@ -6,8 +6,23 @@
   width: 100%;
 }
 
+.post-list > li > h3 {
+  margin-block-end: 0px;
+}
+
+.post-title {
+  font-size: 26px;
+}
+
 .site-title {
-  pointer-events: none;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: normal;
+}
+
+.site-title:hover {
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 .social-media-list > li {
