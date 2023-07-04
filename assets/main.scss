@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.site-title {
+  pointer-events: none;
+}
+
 .social-media-list > li {
   display: inline-block;
   padding-right: $spacing-unit / 4;

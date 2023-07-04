@@ -9,6 +9,7 @@ url: "https://dylanspagnuolo.com"
 github_url: "https://github.com/dylanspag"
 linkedin_url: "https://www.linkedin.com/in/dylan-spagnuolo"
 show_excerpts: true
-plugins:
-  - jekyll-feed
+header_pages:
+  - index.markdown
+  - about.markdown
 
